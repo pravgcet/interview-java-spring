@@ -21,6 +21,41 @@ Spring Framework is a Java-based framework that provides a comprehensive program
 ## What is IoC Container?
 
 The `org.springframework.beans` and `org.springframework.context` packages are the basis for Spring Framework’s IoC container.
+
+In Spring, the **IoC (Inversion of Control) Container** is a **core concept** responsible for managing the lifecycle and configuration of application objects, known as *beans*.
+
+## Key Functions of the IoC Container
+
+1. **Bean Creation** 
+   - Instantiates objects defined in the configuration (via annotations or XML).
+
+2. **Dependency Injection** 
+   - Injects dependencies into beans (constructor, setter, or field injection) automatically.
+
+3. **Lifecycle Management** 
+   - Manages bean lifecycles from instantiation to destruction using callbacks like `@PostConstruct`, `@PreDestroy`, etc.
+
+4. **Configuration Management** 
+   - Reads configuration metadata (`@Component`, `@Configuration`, `@Bean`, or XML) to understand how to wire beans.
+
+5. **Scope Management** 
+   - Manages different bean scopes (singleton, prototype, request, session, etc.).
+
+---
+
+## Types of IoC Containers in Spring
+
+- **BeanFactory** 
+  Basic container with fundamental IoC features.
+
+- **ApplicationContext** 
+  More advanced container built on top of `BeanFactory`, adds features like:
+  - Internationalization
+  - Event propagation
+  - AOP integration
+
+---
+
 ## What are Beans?
 
 ## What is Dependency Injection?
