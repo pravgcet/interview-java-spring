@@ -1,6 +1,6 @@
 ## How Spring Configures @Transactional at Startup?
 
-When we use the @Transactional annotation in a Spring application, the Spring IoC container processes it at startup and applies transaction management. This is done through Spring AOP (Aspect-Oriented Programming) or Spring proxy-based mechanisms.
+When we use the `@Transactional` annotation in a Spring application, the Spring IoC container processes it at startup and applies transaction management. This is done through Spring AOP (Aspect-Oriented Programming) or Spring proxy-based mechanisms.
 
 ## Step-by-step process of how Spring configures transactions at startup.
 
